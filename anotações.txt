@@ -1,0 +1,5 @@
+outline: 
+
+: root{}:
+
+margin: 0 auto - alinha elementos ao centro
