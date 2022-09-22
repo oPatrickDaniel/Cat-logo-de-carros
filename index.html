@@ -1,114 +1,180 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="Pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Catálogo Carros</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio</title>
+    <link rel="stylesheet" href="./style/style.css" />
 </head>
 
 <body>
     <header>
-        <div class="conteudo">
+        <div class="content">
             <nav>
-                <p class="logo"><strong>Dev</strong>Superior</p>
+                <p class="brand"><strong>Comprar</strong>carros</p>
                 <ul>
-                    <li><a href="#">Catálogo</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Características</a></li>
-                    <Button type="button">Login</Button>
+                    <li><a href="#catalog">Catálogo</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#feature">Modelos</a></li>
+                    <button>Login</button>
                 </ul>
             </nav>
-            <div class="bloco-cabecalho">
-                <div class="texto">
-                    <h1>O carro perfeito para você</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, cum!</p>
+            <div class="header-block">
+                <div class="text">
+                    <h2>O Carro Perfeito Para Você</h2>
+                    <p>Encontre carros novos e usados pelo melhor preço do mercado</p>
                 </div>
-                <img src="./images/car-header.png" alt="Carro amarelo">
+                <img src="./images/Chevrolet-onix.png" alt="Car" />
             </div>
         </div>
     </header>
-
-    <section class="catalogo" id="Catalogo">
-        <div class="conteudo">
-            <div class="titulo-do-catalogo">
-                <P>Encontre o que você quer </P>
+    <section class="catalog" id="catalog">
+        <div class="content">
+            <div class="title-wrapper-catalog">
+                <p>Encontre o modelo que você quer</p>
                 <h3>Catálogo</h3>
             </div>
-            <div class="barra-de-pesquisa">
-                <input type="text" class="input-de-pesquisa" placeholder="Qual o seu modelo preferido?">
-                <button class="botao-de-pesquisa">Pesquisar</button>
+            <div class="filter-card">
+                <input type="text" class="search-input" placeholder="Modelo do carro" />
+                <button class="search-button">Procurar</button>
             </div>
-            <div class="container-carros">
-
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <img src="./images/fiat-strada.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Fiat Strada</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="card-item">
+                    <img src="./images/Hyundai-HB20.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Hyundai HB20</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="card-item">
+                    <img src="./images/Chevrolet-onix.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Chevrolet Onix</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="card-item">
+                    <img src="./images/Volkswagen-gol.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Volkswagen Gol</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="card-item">
+                    <img src="./images/Chevrolet-onix-plus.jpg" alt="Car" />
+                    <div class="card-content">
+                        <h3>Chevrolet Onix Plus</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-                <div class="modelos-carros">
-                    <img src="./images/car-card.png" alt="Audi TT">
-
-                    <div class="menu-carros">
-                        <h3>Audi supra TT</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="card-item">
+                    <img src="./images/fiat-mobi.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Fiat Mobi</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
                         <button type="button">Mais Detalhes</button>
                     </div>
                 </div>
-
-
+                <div class="card-item">
+                    <img src="./images/volkswagen-t-cross.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Volkswagen T-Cross</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
+                        <button type="button">Mais Detalhes</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Jeep-Compass.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Jeep Compass</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
+                        <button type="button">Mais Detalhes</button>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <img src="./images/Hyundai-Creta.png" alt="Car" />
+                    <div class="card-content">
+                        <h3>Hyundai Creta</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Repellendus.
+                        </p>
+                        <button type="button">Mais Detalhes</button>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
-
-
-
-
-
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <h6>About</h6>
+                    <h6>Contact</h6>
+                </div>
+                <div class="footer-rental">
+                    <h4>Rental</h4>
+                    <h6>Self-Drive</h6>
+                    <h6>Chauffer-Driven</h6>
+                    <h6>Help</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Stay connected</h4>
+                    <div class="social-icons">
+                        <img src="images/instagram.png" alt="Instagram" />
+                        <img src="images/facebook.png" alt="Facebook" />
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>contatos</h4>
+                    <h6><a href="#">contato.pdani@gmail.com</a></h6>
+                    <h6><a href="#">Linkedin</a></h6>
+                    <h6><a href="#">GitHub</a></h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">PatrickDaniel 2022 - Projeto de uso Público</div>
+    </footer>
 </body>
 
 </html>
