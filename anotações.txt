@@ -1,7 +1,0 @@
-outline: 
-
-: root{}:
-
-margin: 0 auto - alinha elementos ao centro
-
-text ident - muda a posição do placeholder do input
